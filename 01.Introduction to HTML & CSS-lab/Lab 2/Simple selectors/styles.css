@@ -1,0 +1,30 @@
+h1 {
+    background-color: aquamarine;
+}
+
+p {
+    font-size: x-large;
+}
+
+
+.highlight{
+    background-color: rgb(0, 255, 132);
+}
+
+
+#main-title{
+    color: brown;
+}
+
+#special-paragraph {
+    font-style: italic;
+}
+
+ul{
+    background-color: blueviolet;
+}
+
+li{
+   color: chartreuse;
+
+}
