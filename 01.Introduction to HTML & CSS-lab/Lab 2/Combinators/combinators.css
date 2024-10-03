@@ -1,0 +1,22 @@
+div p {
+    color: blue;
+}
+
+
+p span {
+    color: red;
+}
+
+
+ul > li {
+    list-style-type: disc;;
+}
+
+
+p > span {
+
+    background-color: blueviolet;
+    font-weight: 500;
+}
+
+
