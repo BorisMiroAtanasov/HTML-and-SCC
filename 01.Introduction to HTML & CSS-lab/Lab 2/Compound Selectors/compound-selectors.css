@@ -1,0 +1,24 @@
+p.text-highlighted {
+    font-size: 18px;
+    color: rgb(0, 26, 255);
+}
+
+
+div#class-box{
+    background-color: darkorange;
+}
+
+input[type="text"].input-text {
+    border-color: blueviolet;
+    padding: 5px;
+    margin-top: 10px;
+    display: block;
+}
+
+
+.important-item,.important-link{
+    font-style: italic;
+    font-weight: bold;
+    background-color: brown;
+
+}
