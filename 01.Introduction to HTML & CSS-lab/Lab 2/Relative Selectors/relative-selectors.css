@@ -1,0 +1,21 @@
+section  p {
+   color: darkslategray;
+}
+
+
+.main-list > li {
+    font-weight: bold;
+}
+
+article.highlight + article {
+    background-color: rgb(222, 20, 27);
+}
+
+
+h2.trigger ~ p {
+    color: royalblue;
+}
+
+li.special + li a {
+    color: green;
+}
