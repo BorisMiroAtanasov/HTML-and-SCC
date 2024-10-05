@@ -1,0 +1,44 @@
+header nav ul li {
+    color: blue;
+}
+
+header nav ul li:first-child{
+ font-weight: bold;
+}
+
+header nav ul li:last-child{
+    font-style: italic;
+   }
+
+   div > section >h2 {
+    font-weight: 900;
+   }
+
+   div > section > article {
+    background-color: aqua;
+   }
+
+
+   section > header {
+    color: blueviolet;
+    font-style: italic;
+   }
+
+   section > article {
+    color: rgb(179, 255, 0);
+   }
+
+#img{
+    border: coral;
+   }
+
+
+   section.highlight h2::before {
+    content: ">> ";
+    color: darkred;
+}
+
+section.highlight h2::after {
+    content: " <<";
+    color: darkred;
+}
