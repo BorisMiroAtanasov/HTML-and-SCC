@@ -1,0 +1,22 @@
+.accordion-container {
+    width: 70%;
+    margin: 30px auto;
+}
+
+
+.accordion-container details {
+    border: 1px solid #c0c0c0;
+    padding: 20px;
+    font-family:  "Lato", sans-serif;
+    border-bottom: 0px;
+}
+
+.accordion-container details:last-child {
+   
+    border-bottom: 1px solid #c0c0c0;
+}
+
+.accordion-container details summary {
+    font-weight: 700;
+    cursor: pointer;
+}

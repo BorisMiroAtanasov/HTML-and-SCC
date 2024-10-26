@@ -1,0 +1,27 @@
+body{
+    border: 2px solid green;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+.wrapper{
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px 60px;
+}
+
+
+.site-main>section>header,
+.site-main>section>main,
+.site-main>section>article,
+.site-main>section>footer{
+    border: 2px solid blue;
+    margin: 20px;
+    padding: 20px;
+    font-weight: 600;
+  
+}
+
+
