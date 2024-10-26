@@ -1,0 +1,41 @@
+/* font-family: 'Lato', sans-serif; */
+
+
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+.main-section {
+    background-color: white;
+    margin: 250px;
+    padding: 20px 70px;
+   
+
+}
+
+article {
+    margin: 30px;
+
+    font-family: 'Lato', sans-serif;
+    border: 1px solid gray;
+    border-radius: 5px;
+   margin: 10px 500px 30px 500px;
+  padding: 20px;
+  margin: 2em auto;
+  padding: 2em;
+  max-width: 600px;
+  background-color: white;
+}
+
+
+
+
+.bold{
+    font-weight: 600;
+}
+.bold{
+    font-weight: 600;
+}
+.italic{
+    font-style: italic;
+}
