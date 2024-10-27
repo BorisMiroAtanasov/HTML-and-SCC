@@ -1,0 +1,36 @@
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.social-icons {
+    display: flex;
+}
+
+.button{
+    background: #dcdada;
+    width: 60px; /* Size of the circle */
+    height: 60px; /* Size of the circle */
+    border-radius: 50%; /* Make it a circle */
+    padding: 10px;
+    text-align: center;
+    margin: 10px 5px;
+    display: inline-block;
+    font-size: 1.75rem;
+    border: 1px solid #dcdada;
+    background-position: center;
+    background-size: 50%; 
+    
+}
+
+
+h2{
+    font-family:  "Lato", sans-serif;
+}
+
+
+.fa-brands fa-facebook{
+         margin: 5px 0 0 0 ;
+}
+
+
