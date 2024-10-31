@@ -1,0 +1,27 @@
+.flex-container {
+    display: flex;
+    width: 300px;
+    padding: 1em;
+    border: 2px solid blue;
+}
+
+
+
+.flex-container .flex-item{
+    border: 1px solid black;
+    padding: 20px;
+    background: #eee;
+}
+
+.flex-basis-40px .flex-item{
+    flex-basis: 40px;
+}
+
+.flex-basis-100px .flex-item{
+    flex-basis: 100px;
+    /* flex: 1 1 40px; */
+}
+
+
+/* short hand
+flex: grow / shring / basis */

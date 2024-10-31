@@ -1,0 +1,28 @@
+.flex-container {
+    display: flex;
+    width: 300px;
+    padding: 1em;
+    border: 2px solid blue;
+}
+
+
+
+.flex-container .flex-item{
+    border: 1px solid black;
+    padding: 20px;
+    background: #eee;
+}
+
+.flex-grow-1 .flex-item:nth-child(1){
+    flex-grow: 1;
+}
+
+.flex-grow-1 .flex-item:nth-child(2){
+    flex-grow: 2;
+}
+
+.flex-grow-1 .flex-item:nth-child(3){
+    flex-grow: 3;
+}
+
+
