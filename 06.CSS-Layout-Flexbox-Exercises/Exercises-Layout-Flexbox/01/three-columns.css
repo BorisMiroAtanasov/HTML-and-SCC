@@ -42,9 +42,27 @@ body{
 
 .columns > header h2 {
     font-weight: 600;
+    margin-bottom: 10px;
 }
 
 .columns > header p {
     font-style: italic;
     opacity: 0.7;
 }
+
+
+header:after ,
+footer:before {
+    display: block;
+    content: '';
+    width: 50px;
+    height: 2px;
+    background: #EEE;
+    margin: 30px auto 0 auto;
+  }
+
+
+  footer:before {
+
+    margin: 0px auto 30px auto;
+  }
