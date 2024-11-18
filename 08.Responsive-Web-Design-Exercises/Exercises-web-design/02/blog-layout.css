@@ -20,6 +20,7 @@ body {
     background: white;
     border-radius: 5px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    overflow: hidden;
 }
 
 .site > header h1 {
@@ -51,4 +52,45 @@ body {
 
  .site-content{
     padding: 20px;
+    display: flex;
+    gap: 30px;
  }
+
+ .site-content main,
+ .site-content aside{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+ }
+
+
+ .site footer {
+
+    background-color: #444;
+    color: #FFF;
+
+ }
+
+ .site footer p {
+    text-align: center;
+    padding: 15px 0;
+ }
+
+
+ @media (max-width:600px){
+    .menu ul{
+        flex-wrap: wrap;
+    }
+
+    .menu li {
+        flex: 0 0 100%;
+     }
+     .menu li a{
+        text-align: center;
+        border-bottom: 1px solid gray;
+     }
+
+ }
+
+ 
+
