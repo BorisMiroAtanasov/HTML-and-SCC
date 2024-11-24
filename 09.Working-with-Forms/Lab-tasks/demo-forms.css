@@ -28,12 +28,40 @@ form {
 }
 
 input[type=text],
-input[type=password] {
+input[type=password],
+input[type=tel] {
     padding: 5px;
 
+}
+
+input:focus {
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+
+}
+
+input:required:invalid{
+    border: 2px solid red;
+}
+input:required:valid{
+    border: 2px solid green;
 }
 
 .required:after{
     content: '*';
     color: rgb(220, 20, 20);
+}
+
+input[type=submit]{
+    background: red;
+    border: 0;
+    padding: 10px;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+input[type=submit]:hover{
+    background: green;
+  
 }
