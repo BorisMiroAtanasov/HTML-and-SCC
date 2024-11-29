@@ -26,10 +26,38 @@ form {
     flex-direction: column;
     gap: 10px;
 }
+fieldset.column{
+    flex-direction: column;
+
+}
+
+form fieldset {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 10px;
+    flex-wrap: wrap;
+
+}
+
+/* form fieldset p {
+    flex: 0 0 100%;
+    margin-top: 10px;
+    gap: 10px;
+} */
+
+form fieldset>div p{
+    margin-bottom: 5px;
+    font-style: italic;
+    font-weight: 300;
+}
 
 input[type=text],
 input[type=password],
-input[type=tel] {
+input[type=tel],
+input[type=email],  
+input[type=number] ,
+input[type=date] {
     padding: 5px;
 
 }

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="demo-forms.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <title>Demo FORMS</title>
+</head>
+<body>
+    <form action="">
+        <fieldset class="column">
+            <legend>Personal Details</legend>
+
+        <label for="first_name" class="required">First name</label>
+        <input type="text" id="first_name" name="first_name" required placeholder="Enter your first name">
+
+        <label for="last_name" class="required">Last name</label>
+        <input type="text" id="last_name" name="last_name" required placeholder="Enter your last name">
+
+        <label for="email" class="required">Email</label>
+        <input type="email" id="email" name="email" required placeholder="Enter your email addres">
+ 
+        <label for="password" class="required">Password (min. 6 chars)</label>
+        <input type="password" id="password" name="password" required minlength="6" placeholder="Enter your password">
+
+        <label for="phone" >Phone number</label>
+        <input type="tel" id="phone" name="phone"  placeholder="082-02-02-02" pattern="[0-9]{3}-[0-9]{2}-[0-9]{2}-[0-9]{2}">
+
+        <label for="height" >Enter your height in CM</label>
+        <input type="number" id="height" name="height"  min="110" value="150" max="250" step="0.5">
+
+        <label for="weight" >Enter your weight in KG</label>
+        <input type="range" id="weight" name="weight"  min="40" value="50" max="200" step="0.5">
+
+        <label for="month" class="required">Birth Month</label>
+        <input type="date" id="month">
+
+       
+
+    </fieldset>
+
+    <fieldset>
+        <legend>Preferences</legend>
+        <div>
+        <p>What courss would you like to join?</p>
+
+        <input type="radio" id="react" name="course_choise" value="React.js">
+        <label for="react">React.js</label>
+
+        <input type="radio" id="next" name="course_choise" value="Next.js">
+        <label for="next">Next.js</label>
+    </div>
+
+        <legend>Preferences</legend>
+        <div>
+        <p>What is your choice for backend coding?</p>
+
+        <input type="checkbox" id="php" name="backend_choise" value="PHP">
+        <label for="php">PHP</label>
+
+        <input type="checkbox" id="pyton" name="backend_choise" value="Pyton">
+        <label for="pyton">Pyton</label>
+    </div> 
+
+    <div>
+        <p>What is your favorite IDE</p>
+        <select name="ide" id="ide_choice">
+           
+            <option value="">Pelace choose an option</option>
+            <option value="VSCode">VSCode</option>
+            <option value="Atom">Atom</option>
+            <option value="Netbeans">Netbeans</option>
+        </select>
+    </div>
+    </fieldset>
+
+    <input type="submit" value="Register">
+
+
+    </form>
+    
+</body>
+</html>
