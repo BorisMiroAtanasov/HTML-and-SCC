@@ -46,6 +46,10 @@ form fieldset {
     gap: 10px;
 } */
 
+form fieldset>div{
+    width: 100%;
+}
+
 form fieldset>div p{
     margin-bottom: 5px;
     font-style: italic;
@@ -92,4 +96,17 @@ input[type=submit]{
 input[type=submit]:hover{
     background: green;
   
+}
+
+legend {
+    background: black;
+    color: white;
+    padding: 10px;
+}
+label {
+    font-size: 10px;
+}
+
+select {
+    width: 100%;
 }
